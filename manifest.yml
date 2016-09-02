@@ -1,0 +1,11 @@
+---
+applications:
+- name: myfirstpcfdemo
+  memory: 512M 
+  instances: 1
+  host: myfirstpcfdemo
+  path: ./target/pcfdemo.war
+  services: [mysql]
+  timeout: 180
+ 
+
